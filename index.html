@@ -5,4 +5,75 @@
 		<meta charset="UTF-8">
 		<meta discription="Instaclone login page">
 	</head>
+	<body>
+		<main>
+			<div id="iphone-image">
+				<img 
+					src="images/phoneImage.png"
+					alt="Phone Image"
+					title="Phone Image"
+				/>
+			</div>
+			<section id="login">
+				<div class="login__box">
+					<img
+						src="images/logoLogin.png"
+						alt="Logo Login"
+						title="Logo Login"
+					/>
+					<form action="feed.html" method="POST">
+						<input 
+							type="text"
+							name="username"
+							placeholder="Username"
+							required
+							class="login__input" 
+						>
+						<div>
+							<input 							
+								type="password"
+								name="password"
+								placeholder="Password"
+								required
+								class="login__input">
+							<a href="#">forgot</a>
+						</div>
+						<input type="submit" value="Log in">
+					</form>
+				</div>
+				    <span class="login__form-divider">or</span>
+                    <a href="#">Log in with Facebook</a>
+				<div class="login__box">
+					<span class="login__text">
+						Don't have an account
+					</span>
+					<<a href="#" class="login__link">sign up</a>
+				</div>
+				<div class="login__box login__box--transparent">
+					<sapn class="login__text">
+						Get this Apps.
+					</sapn>
+					<div class="login__appsstore">
+						<img src="images/ios.png" alt="Ios" title="Ios">
+						<img src="images/android.png" alt="Android" title="Android">
+					</div>
+				</div>
+			</section>
+		</main>
+			<nav class="footer__nav">
+				<ul class="footer__list">
+					<li class="footer__item">About us</li>
+					<li class="footer__item">Support</li>
+					<li class="footer__item">Blog</li>
+					<li class="footer__item">Press</li>
+					<li class="footer__item">Epic</li>
+					<li class="footer__item">Jobs</li>
+					<li class="footer__item">Privvacy</li>
+					<li class="footer__item">Terms</li>
+					<li class="footer__item">Directory</li>
+					<li class="footer__item">Language</li>
+				</ul>
+			</nav>
+			<span class="footer__copyright">© 2017 Instagram</span>
+	</body>
 </html>
