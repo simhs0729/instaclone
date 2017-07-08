@@ -5,7 +5,8 @@
 		<meta charset="UTF-8">
 		<meta discription="Instaclone login page">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>	
 	<body>
 		<nav class="navigation">
@@ -39,18 +40,13 @@
 						<span class="location">Dire Dawa</span>
 					</div>
 				</header>
-				<img src="images/feedPhoto.jpg" alt="photo__image">
+				<img class="photo__picture" src="images/feedPhoto.jpg" alt="photo__image">
 				<div class="photo__main">
 					<div class="photo__actions">
 						<i class="fa fa-heart-o fa-2x"></i>
 						<i class="fa fa-comment-o fa-2x"></i>
 					</div>
 					<span class="photo__likes">2,990 likes</span>
-
-					<ul class="photo__comments">
-						<li class="photo__comment"><span class="photo__comment__author">
-						</span></li>
-					</ul>
 
 					<ul class="photo__comments">
 						<li class="photo__comment">
@@ -73,15 +69,61 @@
 						</li>
 					</ul>
 					<span class="photo__date">13 hours ago</span>
+
 					<div class="photo__add-comment-container">
-						<textarea name="comment" placeholder="Add a comment..." class="photo__add-comment">
-						</textarea>
+						<textarea name="comment" placeholder="Add a comment..." class="photo__add-comment"></textarea>
                         <i class="fa fa-ellipsis-h"></i>
 					</div>
 				</div>
 			</article>
+
+			<article class="photo">
+				<header class="photo__header">
+					<img src="images/avatar.jpg" alt="martinacordioli" class="photo__avatar">
+					<div class="photo__info">
+						<span class="author">martinacordioli</span>
+						<span class="location">Dire Dawa</span>
+					</div>
+				</header>
+				<img class="photo__picture" src="images/feedPhoto.jpg" alt="photo__image">
+				<div class="photo__main">
+					<div class="photo__actions">
+						<i class="fa fa-heart-o fa-2x"></i>
+						<i class="fa fa-comment-o fa-2x"></i>
+					</div>
+					<span class="photo__likes">2,990 likes</span>
+
+					<ul class="photo__comments">
+						<li class="photo__comment">
+							<span class="photo__comment__author">serranoarevalo</span> omg this is great.
+						</li>
+						<li class="photo__comment">
+							<span class="photo__comment__author">serranoarevalo</span> omg this is great.
+						</li>
+						<li class="photo__comment">
+							<span class="photo__comment__author">serranoarevalo</span> omg this is great.
+						</li>
+						<li class="photo__comment">
+							<span class="photo__comment__author">serranoarevalo</span> omg this is great.
+						</li>
+						<li class="photo__comment">
+							<span class="photo__comment__author">serranoarevalo</span> omg this is great.
+						</li>
+						<li class="photo__comment">
+							<span class="photo__comment__author">serranoarevalo</span> omg this is great.
+						</li>
+					</ul>
+					<span class="photo__date">13 hours ago</span>
+
+					<div class="photo__add-comment-container">
+						<textarea name="comment" placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</article>
+
 		</main>
-			<nav class="footer__nav">
+			<footer>
 				<ul class="footer__list">
 					<li class="footer__item"><a href="#" class="footer__link">about us</a></li>
 					<li class="footer__item"><a href="#" class="footer__link">Support</a></li>
@@ -94,7 +136,7 @@
 					<li class="footer__item"><a href="#" class="footer__link">Directory</a></li>
 					<li class="footer__item"><a href="#" class="footer__link">Language</a></li>
 				</ul>
-			</nav>
 			<span class="footer__copyright">© 2017 Instagram</span>
+			</footer>
 	</body>
 </html>

@@ -5,20 +5,22 @@
 		<meta charset="UTF-8">
 		<meta discription="Instaclone login page">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<main>
-			<div id="iphone-image">
+		<main class="login">
+			<div id="phone-image">
 				<img 
 					src="images/phoneImage.png"
 					alt="Phone Image"
 					title="Phone Image"
+					class="login__logo"
 				/>
 			</div>
 			<section id="login">
-				<div class="login__box">
-					<img
+				<div class="login__box login__box--form">
+					<img 
 						src="images/logoLogin.png"
 						alt="Logo Login"
 						title="Logo Login"
@@ -31,41 +33,42 @@
 							required
 							class="login__input" 
 						>
-						<div>
-							<input 							
+						<div class="login__form-box">
+							<input					
 								type="password"
 								name="password"
 								placeholder="Password"
 								required
 								class="login__input">
-							<a href="#">forgot</a>
+							<a href="#">forgot?</a>
 						</div>
 						<input type="submit" value="Log in">
 					</form>
-				</div>
-				    <span class="login__form-divider">or</span>
-                    <a href="#">
+					<span class="login__form-divider">or</span>
+                    <a id="login__fb-link" href="#">
                     	<i class="fa fa-facebook-official" aria-hidden="true"></i>
 						Log in with Facebook
 					</a>
-				<div class="login__box">
+				</div>
+
+				<div class="login__box--account">
 					<span class="login__text">
 						Don't have an account
 					</span>
-					<<a href="#" class="login__link">sign up</a>
+					<a href="#" class="login__link">sign up</a>
 				</div>
 				<div class="login__box login__box--transparent">
 					<sapn class="login__text">
 						Get this Apps.
 					</sapn>
-					<div class="login__appsstore">
-						<img src="images/ios.png" alt="Ios" title="Ios">
-						<img src="images/android.png" alt="Android" title="Android">
+					<div class="login__appstores">
+						<img src="images/ios.png" style="cursor:pointer;" alt="Ios" title="Ios">
+						<img src="images/android.png" style="cursor:pointer;" alt="Android" title="Android">
 					</div>
 				</div>
 			</section>
 		</main>
-			<nav class="footer__nav">
+			<footer>
 				<ul class="footer__list">
 					<li class="footer__item"><a href="#" class="footer__link">about us</a></li>
 					<li class="footer__item"><a href="#" class="footer__link">Support</a></li>
@@ -78,7 +81,7 @@
 					<li class="footer__item"><a href="#" class="footer__link">Directory</a></li>
 					<li class="footer__item"><a href="#" class="footer__link">Language</a></li>
 				</ul>
-			</nav>
 			<span class="footer__copyright">© 2017 Instagram</span>
+			</footer>
 	</body>
 </html>

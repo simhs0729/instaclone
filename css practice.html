@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html,
+		body {
+			height:100%;
+		}
+		body {
+			margin:0;
+		}
+		.father {
+			height:100%;
+			width:100%;
+			background-color: blue;
+			justify-content: space-around;
+			display: flex;
+			align-items: center;
+		}
+		.child {
+			width:20%;
+			height:200px;
+			background-color: red;
+			color:white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#one {
+			align-self: flex-start;
+		}
+		#three {
+			align-self: flex-end;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="father">
+		<div class="child" id="one">
+			<span>1</span>
+		</div>
+		<div class="child" id="two">
+			<span>1</span>
+		</div>
+		<div class="child" id="three">
+			<span>1</span>
+		</div>
+
+	</div>
+</body>
+</html>
