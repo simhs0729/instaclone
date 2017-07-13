@@ -158,6 +158,7 @@
 	width: 100%;
 	justify-content:space-around;
 	padding:10px;
+	box-sizing: border-box;
 }
 
 .profile__stats2-row{
