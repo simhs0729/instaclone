@@ -172,4 +172,38 @@
 	margin-bottom: 5px;
 }
 
+
+
+.edit-profile__row-input {
+	display: block;
+	margin-top:5px;
+	padding:5px;
+	border:1px solid #e6e6e6;
+    background-color: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width:90%!important;
+}
+
+.edit-profile__row-textarea {
+	display: block;
+	margin-top:5px;
+	padding:5px;
+	border:1px solid #e6e6e6;
+    background-color: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width:90%!important;
+}
+
+.edit-profile__row-select {
+	display: block;
+	margin-top:5px;
+	padding:5px;
+	border:1px solid #e6e6e6;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
 }
